@@ -1,0 +1,557 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+/* nav-1 */
+.container .navbar-1 nav{
+    width: 100%;
+    height: 35px;
+    background-color: whitesmoke;
+}
+.container .navbar-1 #nav-1 img{
+    width: 23px;
+    height: 23px;
+    margin-left: 50px;
+    padding: 4px 0 4px 0;
+}
+.container .navbar-1 #nav-1 ul{
+    float: right;
+    display: inline-flex;
+    margin-right: 50px;
+}
+.container .navbar-1 #nav-1 li{
+    padding: 10px 6px 10px 6px;
+    font-size: 12px;
+}
+.container .navbar-1 #nav-1 a{
+    color: black;
+}
+
+        /* Nav-2 */
+.container .navbar-2 nav{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px;
+}
+.container .navbar-2 #nav-2 img{
+    width: 65px;
+    height: 30px;
+    padding: 15px 20px 15px 20px;
+    margin-left: 27px;
+    
+}
+.container .navbar-2 #nav-2 ul{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;
+}
+.container .navbar-2 #nav-2 li{
+    padding: 0px 30px 30px 0px;  
+    font-size: 15px;
+}
+.container .navbar-2 #nav-2 a{
+    color: black;
+}
+
+.container .navbar-2 #nav-2 #search{
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    height: 40px;
+    position: relative;
+    bottom: 100px;
+    right: 130px;  
+    float: right; 
+    background-color: whitesmoke;
+}
+
+.container .navbar-2 #nav-2 #search-icon{
+    float: right;
+    position: relative;
+    /* background-color: whitesmoke; */
+    height: 19px;
+    bottom: 99px;
+    right: 40px;
+    /* background-color: whitesmoke; */
+    padding: 9.5px;
+    border-radius: 30px;
+    width: 19px;
+}
+
+.container .navbar-2 #nav-2 #heart{
+    float: right;
+    position: relative;
+    left: 247px;
+    bottom: 96.5px;
+    padding: 9.5px;
+    width: 50px;
+}
+
+.container .navbar-2 #nav-2 #shoping{
+    float: right;
+    position: relative;
+    left: 351px;
+    bottom: 96.5px;
+    padding: 9.5px;
+    width: 50px;
+}
+
+/* nav-3 */
+.container .navbar-3 nav{
+    width: 100%;
+    height: 65px;
+    background-color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px 0 10px 0;
+}
+.container .navbar-3 .nav-3 h3{
+    font-size: 16px;
+    position: relative;
+    top: 10px;
+}
+.container .navbar-3 .nav-3 p{
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+}
+.container .navbar-3 .nav-3 a{
+    color: rgb(0, 0, 0);
+}
+
+/* image */
+.container .image-1{
+    padding: 0 50px 0 50px;
+}
+.container .image-1 .img-1 img{
+    width: 100%;
+    height: 500px;
+    padding-left: 0 30px 0px 30px;
+    position: relative;
+    bottom: 6px;
+}
+
+.container .image-1 .text-1 p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.75;
+}
+.container .image-1 .text-1 h1{
+    font-weight: 900;
+    color: white;
+    font-size: 40px;
+    line-height: 1.75;
+}
+.container .image-1 .text-1 #shop{
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    top: 10px;
+}
+.container .image-1 .text-1 #shop:hover{
+    background-color: gray;
+    
+}
+.container .image-1 .text-1{
+    position: relative;
+    bottom: 200px;
+    left: 40px;
+    line-height: 1.5;
+}
+
+/* video */
+.container .just-in{
+    /* position: relative;         fffffffffff
+    bottom: 50px; */
+}
+.container .just-in h3{
+    margin-left: 50px;
+}
+.container .just-in video{
+    width: 1163px;
+    padding: 50px;
+}
+/* blow text */
+.container .text-2{
+    /* position: relative;  sssssssssss
+    bottom: 100px; */
+}
+.container .text-2 h1{
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    line-height: 1;
+    justify-content: center;
+    text-align: center;
+    /* font-family: "Brush Script MT, Brush Script Std, cursive"; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.container .text-2 p{
+    font-size: 13px;
+    line-height: 1.85;
+    justify-content: center;
+    text-align: center;
+    padding: 0 200px 0 200px;
+    position: relative;
+    top: 20px;
+}
+.container .text-2 #b1{
+    padding: 10px 25px 10px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 520px;
+    font-size: 11px;
+}
+.container .text-2 #b2{
+    padding: 10px 25px 10px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-left: 7px;
+    font-size: 11px;
+}
+/* Blow image-2 */
+.container .image-2{
+    /* position: relative;   ttttttttt
+    bottom: 100px; */
+}
+.container .image-2 h3{
+    margin-left: 51px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+.container .image-2 .img-2{
+    display: flex;
+    margin-left: 20px;
+}
+.container .image-2 #pic-1{
+    width: 45%;
+    height: 530px;
+    padding: 10px 20px 10px 35px;
+}
+.container .image-2 #pic-2{
+    width: 45%;
+    height: 530px;
+    padding: 10px 35px 10px 20px;
+}
+
+/* image content */
+/* text-1 */
+.container .image-2 .shop-1{
+    margin-left: 100px;
+    position: relative;
+    bottom: 170px;
+    line-height: 1.7;
+}
+.container .image-2 .shop-1 p{
+    font-size: 13px;
+}
+.container .image-2 .shop-1 h4{
+    font-weight: 500;
+}
+.container .image-2 .shop-1 #shop-1{
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+.container .image-2 .shop-1 #shop-1:hover{
+    background-color: grey;
+    color: black;
+}
+/* text-2 */
+.container .image-2 .shop-2{
+    margin-left: 720px;
+    position: relative;
+    bottom: 270px;
+    line-height: 1.7;
+}
+.container .image-2 .shop-2 p{
+    font-size: 13px;
+}
+.container .image-2 .shop-2 h4{
+    font-weight: 500;
+}
+.container .image-2 .shop-2 #shop-2{
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+.container .image-2 .shop-2 #shop-2:hover{
+    background-color: grey;
+    color: black;
+}
+
+/* Advertisement */
+.container .video-2{
+   position: relative;
+   bottom: 100px;
+}
+.container .video-2 h3{
+    margin-left: 50px;
+}
+.container .video-2 video{
+    width: 1163px;
+    padding: 30px 50px 0px 50px;
+}
+/* blow text-3 */
+.container .text-3{
+    position: relative;
+    bottom: 100px;
+}
+.container .text-3 p{
+    font-size: 13px;
+    line-height: 1.85;
+    justify-content: center;
+    text-align: center;
+    padding: 0 200px 0 200px;
+    position: relative;
+    top: 20px;
+}
+.container .text-3 h1{
+    padding: 50px 0 0 0;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    line-height: 1;
+    justify-content: center;
+    text-align: center;
+    /* font-family: "Brush Script MT, Brush Script Std, cursive"; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container .text-3 #shop-3{
+    padding: 10px 25px 10px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 600px;
+    font-size: 11px;
+}
+.container .text-3 #shop-3:hover{
+    background-color: grey;
+    color: black;
+}
+/* image-3 */
+.container .image-3 #img-4{
+    width: 90%;
+    margin-left: 60px;
+    /* position: relative;
+    bottom: 180px; */
+}
+.container .image-3 .text-4 p{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.75;
+    color: white;
+    width: 30%;
+}
+.container .image-3 .text-4 h1{
+    font-weight: 900;
+    color: white;
+    font-size: 40px;
+    line-height: 1.75;
+}
+.container .image-3 .text-4 #shop-4{
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    top: 10px;
+    background-color: white;
+}
+.container .image-3 .text-4 #shop-4:hover{
+    background-color: gray;
+    
+}
+.container .image-3 .text-4{
+    position: relative;
+    margin-left: 100px;
+    bottom: 280px;
+    line-height: 1.5;
+}
+/* image-4 */
+.container .image-4{
+    padding: 0 50px 0 50px;
+    position: relative;
+    bottom: 100px;
+}
+.container .image-4 h3{
+    padding: 0 0 50px 0;
+}
+.container .image-4 img{
+    width: 100%;
+    height: 600px;
+    padding-left: 0 30px 0px 30px;
+    position: relative;
+    bottom: 6px;
+}
+/* text-5 */
+.container .text-5{
+    position: relative;
+    bottom: 50px;
+}
+.container .text-5 p{
+    font-size: 13px;
+    line-height: 1.85;
+    justify-content: center;
+    text-align: center;
+    padding: 0 200px 0 200px;
+    position: relative;
+    top: 20px;
+}
+.container .text-5 h1{
+    padding: 50px 0 0 0;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    line-height: 1;
+    justify-content: center;
+    text-align: center;
+    /* font-family: "Brush Script MT, Brush Script Std, cursive"; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container .text-5 #shop-5{
+    padding: 10px 25px 10px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 600px;
+    font-size: 11px;
+}
+.container .text-5 #shop-5:hover{
+    background-color: grey;
+    color: black;
+}
+
+/* image-5 */
+.container .image-5 .img-5{
+    display: flex;
+    margin-left: 50px;
+}
+.container .image-5 .img-5 img{
+    padding: 5px;
+    width: 31%;
+    height: 550px;
+}
+.container .image-5 #men{
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 100px;
+    position: relative;
+    bottom: 90px;
+    background-color: white;
+}
+.container .image-5 #men:hover{
+    background-color: grey;
+}
+.container .image-5 #women{
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 295px;
+    position: relative;
+    bottom: 90px;
+    background-color: white;
+}
+.container .image-5 #women:hover{
+    background-color: grey;
+}
+.container .image-5 #kid{
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 310px;
+    position: relative;
+    bottom: 90px;
+    background-color: white;
+}
+.container .image-5 #kid:hover{
+    background-color: grey;
+}
+
+/* Footer */
+.container footer{
+    background-color: rgb(0, 0, 0);
+}
+.container .footer{
+    
+    height: 400px;
+    padding: 20px 50px 50px 20px;
+    display: flex;
+}
+.container .footer .f1 ul{
+    color: #fff;
+    font-family: Nike TG,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    padding: 50px;
+}
+.container .footer .f1 h4{
+    line-height: 2.33;
+    font-weight: 400;
+    font-size: 16px;
+}
+.container .footer .f1 li{
+    line-height: 2.33;
+    font-weight: 300;
+    font-size: 11px;
+    color: grey;
+}
+
+/* icons */
+.container .footer .icons{
+    margin-left: 213px;
+    margin-top: 36px;
+}
+.container .footer .icons i{
+    padding: 15px;
+    
+}
+
+
+.container .location i{
+    display: flex;
+    margin-left: 60px;
+}
+.container .location .country{
+    margin: 0;
+    position: relative;
+    bottom: 2px;
+}
+.container .location span{
+    color: #878787;
+    margin-left: 30px;
+    font-size: 11px;
+}
+.container .location i p{
+    padding: 5px;
+}
+.container .location .f5 ul{
+    color: grey;
+    display: flex;
+    margin-left: 830px;
+}
+.container .location .f5 li{
+    padding: 15px;
+    font-size: 11px;
+}
